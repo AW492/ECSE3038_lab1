@@ -22,3 +22,16 @@ def potential_divider(voltage,series_resistances):
 list_resistor = [3000,1000]
 
 potential_divider(9,list_resistor)
+
+def temperature_check(body_temperature, unit_temperature):
+    if body_temperature < 35 and unit_temperature =="C" :
+        print("the patient is hypothermic")
+    elif body_temperature < 95 and unit_temperature == "F":
+        print("the patient is hypothermic")
+    elif 35 <= body_temperature <= 37 and unit_temperature == "C":
+        print("the patient's temperature is normral")
+    elif body_temperature >37 and unit_temperature == "C":
+        print("patient has a fever!") 
+
+temperature_check(14, "C")
+

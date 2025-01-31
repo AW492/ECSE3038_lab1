@@ -15,3 +15,12 @@ Code was written for lab 1 for ECSE3038 course.
 
 JOKE
 I told a chemistry joke once, didnt get much of a reaction
+
+SUMMARY 3
+The code is to take body temperature input and the unit of measurement. If certain parameters are met it should distinguish the patients current state of health. 
+
+REASON 3
+Code was written for lab 1 for ECSE3038 course.
+
+JOKE 
+Have you ever been camping, it's in tents. 
